@@ -13,8 +13,8 @@ burger.onclick = function () {
 };
 console.log(tags);
 
-for (tag in tags) {
-  tags[tag].onclick = function () {
-    dropdown.style.height = "0px";
-  };
+for (let i = 0; i < tags.length; i++) {
+    tags[i].onclick = function() {
+      dropdown.style.height = "0px";
+    };
 }
