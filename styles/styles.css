@@ -136,6 +136,7 @@ hr {
 .hide {
     display: none;
     display: hide;
+    padding: 4px 8px 4px 8px;
 }
 
 #burger {
@@ -180,7 +181,6 @@ hr {
 
   .hide {
     display: block;
-    padding: 4px 8px 4px 8px;
   }
 
   #about > p {
