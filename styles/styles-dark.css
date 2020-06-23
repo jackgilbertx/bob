@@ -4,8 +4,10 @@
   }
 
   body{
+      display: block !important;
       background-color: #000000;
   }
+
   
   .section::before {
     content: "";
