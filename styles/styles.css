@@ -40,6 +40,8 @@ main {
 
 #photo-bob {
   width: 100%;
+  margin-bottom: 15px;
+
 }
 
 h1 {
@@ -98,24 +100,21 @@ hr {
 }
 
 #contact {
-  justify-content: center;
-  display: flex;
-  font-size: 24px;
   margin-bottom: 50px;
 }
 
 #contact > a {
-  padding: 5px;
-  text-decoration: none;
-  font-size: 32px;
-  color: #000000;
-  letter-spacing: 2px;;
-}
+    margin:auto;
+    text-decoration: none;
+    display: block;
+    color: black;
+    letter-spacing: 2px;;
+    text-align: center;
+  }
 
 #contact > a:hover {
   color: #0000008a;
 }
-
 
 .nav{
     background-color: #fff;
