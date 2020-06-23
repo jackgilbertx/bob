@@ -180,12 +180,11 @@ hr {
 
   .hide {
     display: block;
+    padding: 4px 8px 4px 8px;
   }
 
   #about > p {
     width: 90%;
   }
-    .hide{
-      padding: 4px 8px 4px 8px;
-    }
+
 }
