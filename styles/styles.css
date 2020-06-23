@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Playfair Display", "Times New Roman", Times, serif;
 }
+body{
+display: block !important;
+}
  
 .section::before {
   content: "";
