@@ -180,10 +180,6 @@ hr {
   font-weight: 400;
 }
 
-#dropdown > a:before {
-  content: '-   ';
-}
-
 @media only screen and (max-width: 500px) {
   .book-item {
     width: 90%;
