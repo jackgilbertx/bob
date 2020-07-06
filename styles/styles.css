@@ -11,6 +11,16 @@ body {
   display: block !important;
 }
 
+.photo {
+  background-image: url(../assets/bob.jpg);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: 50% 30%;
+  box-shadow: 1px 1px 8px #000000c4;
+  margin-bottom: 15px;
+}
+
 .section::before {
   content: '';
   display: block;
@@ -44,11 +54,6 @@ main {
   width: 50%;
   margin: auto;
   margin-bottom: 30px;
-}
-
-#photo-bob {
-  width: 100%;
-  margin-bottom: 15px;
 }
 
 h1 {
@@ -209,5 +214,13 @@ hr {
 
   #about > p {
     width: 90%;
+  }
+
+  .photo {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 10%;
+    box-shadow: 1px 1px 8px #000000c4;
   }
 }
