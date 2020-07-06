@@ -48,10 +48,12 @@ main {
 
 .section {
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
 }
 
 #about > p {
-  width: 50%;
+  width: 60%;
   margin: auto;
   margin-bottom: 30px;
 }
@@ -104,15 +106,15 @@ hr {
 
 .book-item {
   margin: auto;
-  width: 50%;
+  width: 60%;
   margin-bottom: 50px;
+  display: flex;
 }
 
-.book-item > img {
-  width: 30%;
-  margin: auto;
-  display: block;
-  margin-bottom: 15px;
+.book-item img {
+  width: auto;
+  margin: 0 15px 0 0;
+  height: 400px;
 }
 
 .line {
@@ -189,6 +191,15 @@ hr {
   font-size: 28px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .book-item {
+    width: 90%;
+  }
+  #about > p {
+    width: 90%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
   .book-item {
     width: 90%;
@@ -222,5 +233,18 @@ hr {
     background-size: cover;
     background-position: 50% 10%;
     box-shadow: 1px 1px 8px #000000c4;
+  }
+
+  .book-item img {
+    text-align: center;
+    height: auto;
+    width: 100%;
+  }
+  .book-item {
+    flex-direction: column;
+  }
+
+  .book-item div {
+    max-height: initial;
   }
 }
