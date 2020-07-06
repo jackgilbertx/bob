@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Raleway:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -49,23 +52,34 @@ main {
 }
 
 h1 {
+  letter-spacing: 3px;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 100;
   text-align: center;
-  color: rgb(111, 111, 111);
+  color: #000000a8;
   margin-bottom: 10px;
+  text-shadow: 0px 2px 3px #0000003d;
 }
 
 .full-name {
   font-weight: 700;
 }
 
-h1:after {
+/* h1:after {
   content: '       -';
   color: rgb(0, 128, 28);
   font-weight: 2000;
   font-size: 40px;
   padding-left: 8px;
 }
+
+h1:before {
+  content: '-       ';
+  color: rgb(0, 128, 28);
+  font-weight: 2000;
+  font-size: 40px;
+  padding-left: 8px;
+} */
 
 img {
   border-radius: 5px;
@@ -82,6 +96,10 @@ img {
 
 .amazon:hover {
   color: #0000008a;
+}
+
+.amazon::before {
+  content: '-  ';
 }
 
 hr {
@@ -133,6 +151,7 @@ hr {
 }
 
 .nav {
+  opacity: 0.9;
   background-color: black;
   font-size: 24px;
   top: 0;
@@ -179,7 +198,6 @@ hr {
   text-decoration: none;
   font-weight: 400;
   font-size: 28px;
-
 }
 
 @media only screen and (max-width: 500px) {
