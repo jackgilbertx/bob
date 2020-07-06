@@ -18,13 +18,13 @@ body {
   background-size: cover;
   background-position: 50% 30%;
   box-shadow: 1px 1px 8px #000000c4;
-  margin-bottom: 15px;
+  margin-bottom: -20px;
 }
 
 .section::before {
   content: '';
   display: block;
-  height: 50px; /* fixed header height*/
+  height: 100px; /* fixed header height*/
   margin: -50px 0 0; /* negative fixed header height */
 }
 
