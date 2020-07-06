@@ -12,7 +12,7 @@ body {
 }
 
 .photo {
-  background-image: url('../assets/bob.jpg');
+  background: url('../assets/bob.jpg');
   height: 550px;
   width: 100%;
   background-size: cover;
