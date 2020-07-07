@@ -83,14 +83,16 @@ img {
   font-weight: 300;
   font-size: 24px;
   text-align: center;
+  border-left: 5px solid #00ab00;
+  padding: 2px 8px 2px 8px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .amazon:hover {
   color: #0000008a;
-}
-
-.amazon::before {
-  content: '-  ';
 }
 
 hr {
@@ -115,6 +117,10 @@ hr {
   width: auto;
   margin: 0 15px 0 0;
   height: 400px;
+}
+
+.book-item p {
+  margin-bottom: 10px;
 }
 
 .line {
@@ -154,6 +160,8 @@ hr {
 
 .nav a {
   color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .show {
@@ -204,16 +212,6 @@ hr {
   .book-item {
     width: 90%;
   }
-  .book-item > img {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 10px;
-  }
-
-  .amazon {
-    text-align: center;
-    font-weight: bold;
-  }
 
   .nav-items {
     display: none;
@@ -238,8 +236,11 @@ hr {
   .book-item img {
     text-align: center;
     height: auto;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
   }
+
   .book-item {
     flex-direction: column;
   }
