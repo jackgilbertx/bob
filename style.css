@@ -75,6 +75,10 @@ header .bob img {
   box-shadow: 0 0 8px #6d6d6d;
 }
 
+#book-location {
+  height: 60px;
+}
+
 hr {
   border: 0;
   height: 1px;
@@ -84,7 +88,7 @@ hr {
     rgba(0, 0, 0, 0.75),
     rgba(0, 0, 0, 0)
   );
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .about {
@@ -106,12 +110,6 @@ hr {
 
 .book-item p {
   margin: 0 0 10px 0;
-}
-
-#book1::before {
-  content: '';
-  display: block;
-  height: 250px; /* fixed header height*/
 }
 
 .container {
@@ -208,7 +206,7 @@ img {
 .banner {
   display: none;
   position: absolute;
-  top: 130px;
+  top: 20px;
   z-index: 4;
   color: white;
   background: linear-gradient(
@@ -234,7 +232,7 @@ img {
   margin: 0 0 5px 0;
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 640px) {
   .desktop-nav {
     display: none;
   }
@@ -280,7 +278,6 @@ img {
     box-shadow: 0 0 8px #6d6d6d;
     max-width: 100%;
     height: auto;
-    
   }
 
   .book-item {
