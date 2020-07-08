@@ -1,138 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Playfair Display"
-    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bob Gilbert</title>
   </head>
   <body>
-    <div class="show nav">
-      <div id="nav-home">
-        <a href="#" class="nav-items">About</a>
-      </div>
-      <div>
-        <a href="#books" class="nav-items">Books</a>
-        <a href="#contact" class="nav-items">Contact</a>
-      </div>
-    </div>
-    <div class="hide nav">
+    <nav class="mobile-nav">
       <div id="burger">&#9776;</div>
       <div id="dropdown">
-        <a href="#">About</a>
-        <a href="#books">Books</a>
-        <a href="#contact">Contact</a>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#book-location">Books</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
       </div>
-    </div>
-    <main>
-      <div class="photo"></div>
-      <div class="section" id="about">
-        <h1 class="full-name">Bob Gilbert</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-        <hr />
-      </div>
-      <div class="section" id="books">
-        <div class="book-item" id="book2">
-          <img src="assets/green.jpg" alt="Green Goes Forth" />
-          <div>
-            <p class="book-summary">
-              "Green Goes Forth," the prequel to Robert Gilbert’s first novel
-              "Mintwood Place," is a coming of age story set in the 1970s. It
-              features the young Joe Green, who we already know as a divorced
-              father of three, involved in the political skullduggery of
-              Washington, D.C. Now we meet young Joe, a senior at American
-              University, who gets himself in trouble and flees the city two
-              steps ahead of the law. His escape takes him to Sonoma County,
-              California, where he goes into hiding. During his lonesome months
-              of exile, he expands his imagination with the study of such books
-              as Homer’s "The Odyssey," and "The I Ching," of Confucius. He also
-              becomes a successful marijuana grower. After two years, he returns
-              to D.C. with money and a gnostic sense that stands in opposition
-              to the emerging politics of the Reagan era. "Green Goes Forth" is
-              Robert Gilbert’s third novel.
-            </p>
-            <a
-              target="_blank"
-              href="https://www.amazon.com/gp/product/B079471PJQ/ref=dbs_a_def_rwt_bibl_vppi_i1"
-              class="amazon"
-              >Buy on Amazon</a
-            >
-          </div>
-        </div>
-        <div class="book-item" id="book1">
-          <img src="assets/mintwood.jpg" alt="Mintwood Place" />
-          <div>
-            <p class="book-summary">
-              Bob Gilbert’s novel "Mintwood Place" is a delightfully fresh
-              version of the noir tradition, offering the reader a contemporary
-              “Cassablanca” in Washington D.C. The book’s narrator, Renaissance
-              man Joe Green, has plenty to say about love, politics and the male
-              psyche in this page-turning romantic suspense. Joe runs a
-              bookstore and a bistro, and painfully navigates a modern divorce
-              while the Senate Intelligence Committee investigates his
-              relationship with Cosmo, a protégé, who has recently been paroled
-              after serving five years in prison for the ambiguous killing of a
-              local black youth. Green, a proud Jersey boy, can all at once
-              relax by watching his tortoises, hand out liberal advice to his
-              three teenagers, and pack serious heat. He is a twenty-first
-              century American male if ever there was one.
-            </p>
-            <a
-              target="_blank"
-              href="https://www.amazon.com/gp/product/B00V2ICBYC/ref=dbs_a_def_rwt_bibl_vppi_i0"
-              class="amazon"
-              >Buy on Amazon</a
-            >
-          </div>
-        </div>
-        <div class="book-item" id="book3">
-          <img src="assets/zion.jpg" alt="Shady Elders of Zion" />
-          <div>
-            <p class="book-summary">
-              "The Shady Elders of Zion" is a Minnesota ghost story. Ivan
-              Kalinsky, the book's narrator, is the last surviving Bolshevik
-              from the class of 1917. When Stalin started purging Jews from the
-              Communist Party ranks in the 1930's, Kalinsky escaped to Northern
-              Minnesota, where he lived out a long life as a union organizer.
-              Now dead, he's just about to happily ascend to heaven and reunite
-              with his Bolshevik clan, when two pesky Hassidic ghosts, Singer
-              and Himmelman, blackmail him into helping heal and redirect Joshua
-              Bronstein. Bronstein is a damaged soul, and a candidate for the
-              Lamed Vav, one of the thirty-six hidden righteous men from whom
-              the messiah will be chosen when God decides it's time. And it
-              becomes Kalinsky's charge to lead stubborn Bronstein out of his
-              wilderness.
-            </p>
-            <a
-              target="_blank"
-              href="https://www.amazon.com/dp/B01GP1GZ0Q/ref=rdr_kindle_ext_tmb"
-              class="amazon"
-              >Buy on Amazon</a
-            >
-          </div>
-        </div>
-        <hr />
+    </nav>
+
+    <nav class="desktop-nav">
+      <div>
+        <a href="#header">Home</a>
       </div>
       <div>
-        <h1>Contact</h1>
-        <div id="contact">
-          <a href="mailto:shadyrealm@aol.com">shadyrealm@aol.com</a>
+        <a href="#book-location">Books</a>
+        <a href="#footer">Contact</a>
+      </div>
+    </nav>
+    <div class="banner">
+      <h1>Bob Gilbert</h1>
+      <p>Author</p>
+    </div>
+    <header id="header">
+      <div class="intro">
+        <h1>Bob Gilbert</h1>
+        <p>Author</p>
+      </div>
+      <div class="bob">
+        <img src="assets/portrait.jpg" />
+      </div>
+    </header>
+    <div class="container">
+      <p class="about">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nihil
+        ipsam ullam natus voluptas, eius, consequuntur beatae enim repudiandae
+        consequatur iure sapiente, maiores impedit magni reprehenderit quod
+        possimus cum alias?
+      </p>
+      <hr id="book-location" />
+      <div class="book-item">
+        <div class="book-img">
+          <img src="assets/green.jpg" alt="book-cover" />
+        </div>
+        <div class="book-info">
+          <p>
+            "Green Goes Forth," the prequel to Robert Gilbert’s first novel
+            "Mintwood Place," is a coming of age story set in the 1970s. It
+            features the young Joe Green, who we already know as a divorced
+            father of three, involved in the political skullduggery of
+            Washington, D.C. Now we meet young Joe, a senior at American
+            University, who gets himself in trouble and flees the city two steps
+            ahead of the law. His escape takes him to Sonoma County, California,
+            where he goes into hiding. During his lonesome months of exile, he
+            expands his imagination with the study of such books as Homer’s "The
+            Odyssey," and "The I Ching," of Confucius. He also becomes a
+            successful marijuana grower. After two years, he returns to D.C.
+            with money and a gnostic sense that stands in opposition to the
+            emerging politics of the Reagan era. "Green Goes Forth" is Robert
+            Gilbert’s third novel.
+          </p>
+          <a href="">Buy on Amazon</a>
         </div>
       </div>
-      <hr />
-    </main>
-    <script type="text/javascript" src="index.js"></script>
+      <div class="book-item">
+        <div class="book-img">
+          <img src="assets/mintwood.jpg" alt="book-cover" />
+        </div>
+        <div class="book-info">
+          <p>
+            Bob Gilbert’s novel "Mintwood Place" is a delightfully fresh version
+            of the noir tradition, offering the reader a contemporary
+            “Cassablanca” in Washington D.C. The book’s narrator, Renaissance
+            man Joe Green, has plenty to say about love, politics and the male
+            psyche in this page-turning romantic suspense. Joe runs a bookstore
+            and a bistro, and painfully navigates a modern divorce while the
+            Senate Intelligence Committee investigates his relationship with
+            Cosmo, a protégé, who has recently been paroled after serving five
+            years in prison for the ambiguous killing of a local black youth.
+            Green, a proud Jersey boy, can all at once relax by watching his
+            tortoises, hand out liberal advice to his three teenagers, and pack
+            serious heat. He is a twenty-first century American male if ever
+            there was one.
+          </p>
+          <a href="">Buy on Amazon</a>
+        </div>
+      </div>
+      <div class="book-item">
+        <div class="book-img">
+          <img src="assets/zion.jpg" alt="book-cover" />
+        </div>
+        <div class="book-info">
+          <p>
+            "The Shady Elders of Zion" is a Minnesota ghost story. Ivan
+            Kalinsky, the book's narrator, is the last surviving Bolshevik from
+            the class of 1917. When Stalin started purging Jews from the
+            Communist Party ranks in the 1930's, Kalinsky escaped to Northern
+            Minnesota, where he lived out a long life as a union organizer. Now
+            dead, he's just about to happily ascend to heaven and reunite with
+            his Bolshevik clan, when two pesky Hassidic ghosts, Singer and
+            Himmelman, blackmail him into helping heal and redirect Joshua
+            Bronstein. Bronstein is a damaged soul, and a candidate for the
+            Lamed Vav, one of the thirty-six hidden righteous men from whom the
+            messiah will be chosen when God decides it's time. And it becomes
+            Kalinsky's charge to lead stubborn Bronstein out of his wilderness.
+          </p>
+          <a href="">Buy on Amazon</a>
+        </div>
+      </div>
+    </div>
+    <div id="footer" class="contact">
+      <h1>Contact</h1>
+      <a href="mailto:shadyrealm@aol.com">shadyrealm@aol.com</a>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
