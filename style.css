@@ -206,7 +206,7 @@ img {
 .banner {
   display: none;
   position: absolute;
-  top: 20px;
+  top: 140px;
   z-index: 4;
   color: white;
   background: linear-gradient(
@@ -230,6 +230,12 @@ img {
 
 .banner p {
   margin: 0 0 5px 0;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 970px) {
+  .container {
+    width: 80%;
+  }
 }
 
 @media only screen and (max-width: 640px) {
@@ -278,6 +284,7 @@ img {
     box-shadow: 0 0 8px #6d6d6d;
     max-width: 100%;
     height: auto;
+    width: 100%;
   }
 
   .book-item {
@@ -287,12 +294,6 @@ img {
     width: auto;
     height: 300px;
     text-align: center;
-    margin-bottom: 5px;
-  }
-}
-
-@media only screen and (max-width: 1024px) {
-  .container {
-    width: 80%;
+    margin-bottom: 10px;
   }
 }
