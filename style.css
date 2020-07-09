@@ -46,9 +46,16 @@ body {
 }
 
 header {
-  background-color: black;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.9)
+    url(https://images.squarespace-cdn.com/content/v1/56bf8adad51cd4587e5f14b2/1514572181808-ERMYYQNWJQXHHRC2NO1H/ke17ZwdGBToddI8pDm48kDdjP6q7PNCkw4Qep81kHxl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ue4MnKmAUS0E6M-InQ5AtKmQukWwcizG_Vlz3TWZ47gx1trlVMuTSyYUsJBPcSHLtA/best-books-book-youll-ever-read.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-color: black; */
   color: white;
-  font-size: 160%;
+  font-size: 190%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -72,12 +79,7 @@ header .bob {
 
 header .bob img {
   height: 100%;
-  box-shadow: 0 0 8px #6d6d6d;
 }
-
-/* #book-location {
-  height: 60px;
-} */
 
 hr {
   border: 0;
@@ -106,6 +108,8 @@ hr {
   width: auto;
   margin: 0 15px 0 0;
   height: 300px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 8px #000000c4;
 }
 
 .book-item p {
@@ -116,11 +120,6 @@ hr {
   width: 60%;
   margin: 0 auto;
   max-width: 100%;
-}
-
-img {
-  border-radius: 5px;
-  box-shadow: 1px 1px 8px #000000c4;
 }
 
 .book-info a {
@@ -205,23 +204,19 @@ img {
   padding-left: 5px;
 }
 
-#book-location{
-    padding-top: 90px;
-    margin-top: -50px;
+#book-location {
+  padding-top: 90px;
+  margin-top: -50px;
 }
 
 .banner {
+  border-top: 1px solid rgb(189, 189, 189);
   display: none;
   position: absolute;
-  top: 80px;
+  bottom: 0px;
   z-index: 4;
   color: white;
-  background: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0.5),
-    rgb(0, 0, 0),
-    rgba(0, 0, 0, 0.5)
-  );
+  background: black;
   width: 100%;
   margin: 0;
   padding: 10px 0;
@@ -229,6 +224,7 @@ img {
   font-weight: bold;
   margin-top: 30px;
   padding: 5px 0;
+  letter-spacing: 3px;
 }
 
 .banner h1 {
@@ -292,6 +288,7 @@ img {
     max-width: 100%;
     height: auto;
     width: 100%;
+    margin-top: -180px;
   }
 
   .book-item {
@@ -304,3 +301,10 @@ img {
     margin-bottom: 10px;
   }
 }
+
+/* 
+background-blend-mode: darken;
+background: rgba(0, 0, 0, .65) url(https://images.squarespace-cdn.com/content/v1/56bf8adad51cd4587e5f14b2/1514572181808-ERMYYQNWJQXHHRC2NO1H/ke17ZwdGBToddI8pDm48kDdjP6q7PNCkw4Qep81kHxl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ue4MnKmAUS0E6M-InQ5AtKmQukWwcizG_Vlz3TWZ47gx1trlVMuTSyYUsJBPcSHLtA/best-books-book-youll-ever-read.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;  */
