@@ -3,27 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <title>Bob Gilbert</title>
-  </head>
+  </head>      
+
   <body>
-    <div id="home"></div>
     <nav class="mobile-nav" id="mobile-nav">
       <div id="burger">&#9776;</div>
+      <div class="logo">
+        <img src="assets/logo.svg" alt="logo">
+      </div>
       <div id="dropdown">
         <ul>
-            <li class="scroll">Home</id=></li>
+          <li class="scroll">Home</id=></li>
           <li class="scroll">Books</id=></li>
           <li class="scroll">Contact</id=></li>
         </ul>
       </div>
     </nav>
 
-    <nav class="desktop-nav">
+    <nav id="home" class="desktop-nav">
       <div>
         <a href="#home">Home</a>
       </div>
-      <div>
+    <div class="logo">
+         <img src="assets/logo.svg" alt="logo">
+    </div>
+      <div class="right-nav">
         <a href="#books">Books</a>
         <a href="#contact">Contact</a>
       </div>
@@ -32,6 +39,10 @@
       <div class="intro">
         <h1>Bob Gilbert</h1>
         <p>Author</p>
+        <p class="about">
+          Bob Gilbert grew up in Jackson Township, New Jersey. He attended American University andlater moved to Minneapolis where he worked as a community newspaper reporter and awaiter. His passions include backpacking and the study of old books. Currently, he splits his time between Washington, D.C. and Minneapolis where he is completing his fourth novel.  
+        </p>
+        <button class="header-btn">Read Latest</button>
       </div>
       <div class="bob"></div>
       <div class="banner">
@@ -40,61 +51,18 @@
       </div>
     </header>
     <div class="container">
-      <p class="about">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nihil
-        ipsam ullam natus voluptas, eius, consequuntur beatae enim repudiandae
-        consequatur iure sapiente, maiores impedit magni reprehenderit quod
-        possimus cum alias?
+      <p class="about-mobile">
+        Bob Gilbert grew up in Jackson Township, New Jersey. He attended American University andlater moved to Minneapolis where he worked as a community newspaper reporter and awaiter. His passions include backpacking and the study of old books. Currently, he splits histime between Washington, D.C. and Minneapolis where he is completing his fourth novel.  
       </p>
-      <hr />
+      <div class="line"></div>
       <div id="books">
-        <div class="book-item">
-          <div class="book-img">
-            <img src="assets/green.jpg" alt="book-cover" />
-          </div>
-          <div class="book-info">
-            <p>
-              "Green Goes Forth," the prequel to Robert Gilbert’s first novel
-              "Mintwood Place," is a coming of age story set in the 1970s. It
-              features the young Joe Green, who we already know as a divorced
-              father of three, involved in the political skullduggery of
-              Washington, D.C. Now we meet young Joe, a senior at American
-              University, who gets himself in trouble and flees the city two
-              steps ahead of the law. His escape takes him to Sonoma County,
-              California, where he goes into hiding. During his lonesome months
-              of exile, he expands his imagination with the study of such books
-              as Homer’s "The Odyssey," and "The I Ching," of Confucius. He also
-              becomes a successful marijuana grower. After two years, he returns
-              to D.C. with money and a gnostic sense that stands in opposition
-              to the emerging politics of the Reagan era. "Green Goes Forth" is
-              Robert Gilbert’s third novel.
-            </p>
-            <a
-              target="_blank"
-              href="https://www.amazon.com/gp/product/B079471PJQ/ref=dbs_a_def_rwt_bibl_vppi_i1"
-              >Buy on Amazon</a
-            >
-          </div>
-        </div>
         <div class="book-item">
           <div class="book-img">
             <img src="assets/mintwood.jpg" alt="book-cover" />
           </div>
           <div class="book-info">
             <p>
-              Bob Gilbert’s novel "Mintwood Place" is a delightfully fresh
-              version of the noir tradition, offering the reader a contemporary
-              “Cassablanca” in Washington D.C. The book’s narrator, Renaissance
-              man Joe Green, has plenty to say about love, politics and the male
-              psyche in this page-turning romantic suspense. Joe runs a
-              bookstore and a bistro, and painfully navigates a modern divorce
-              while the Senate Intelligence Committee investigates his
-              relationship with Cosmo, a protégé, who has recently been paroled
-              after serving five years in prison for the ambiguous killing of a
-              local black youth. Green, a proud Jersey boy, can all at once
-              relax by watching his tortoises, hand out liberal advice to his
-              three teenagers, and pack serious heat. He is a twenty-first
-              century American male if ever there was one.
+              Gilbert’s debut novel is a delightfully fresh version of the noir tradition, offering the reader acontemporary “Casablanca” in Washington D.C. The book’s narrator, Renaissance man JoeGreen, has plenty to say about love, politics and the male psyche in this page-turning romanticsuspense. Joe runs a bookstore and a bistro, and painfully navigates a modern divorce whilethe Senate Intelligence Committee investigates his relationship with Cosmo, a protégé, whohas recently been paroled after serving five years in prison for the ambiguous killing of a localblack youth. Green, a proud Jersey boy, can all at once relax by watching his tortoises, handout liberal advice to his three teenagers, and pack serious heat. He is a twenty-first centuryAmerican male if ever there was one.
             </p>
             <a
               target="_blank"
@@ -109,32 +77,45 @@
           </div>
           <div class="book-info">
             <p>
-              "The Shady Elders of Zion" is a Minnesota ghost story. Ivan
-              Kalinsky, the book's narrator, is the last surviving Bolshevik
-              from the class of 1917. When Stalin started purging Jews from the
-              Communist Party ranks in the 1930's, Kalinsky escaped to Northern
-              Minnesota, where he lived out a long life as a union organizer.
-              Now dead, he's just about to happily ascend to heaven and reunite
-              with his Bolshevik clan, when two pesky Hassidic ghosts, Singer
-              and Himmelman, blackmail him into helping heal and redirect Joshua
-              Bronstein. Bronstein is a damaged soul, and a candidate for the
-              Lamed Vav, one of the thirty-six hidden righteous men from whom
-              the messiah will be chosen when God decides it's time. And it
-              becomes Kalinsky's charge to lead stubborn Bronstein out of his
-              wilderness.
+              This is a comedic Minnesota ghost story. It’s narrator, Ivan Kalinsky, is a dead RussianCommunist from the Bolshevik class of 1917. When Stalin started purging Jews from theCommunist Party ranks in the 1930’s, Kalinsky escaped to Northern Minnesota where he livedout his long life as a union organizer for the steelworkers. Now dead and about to ascend toheaven and his long lost Communist friends when two pesky Hasidic ghosts, Himmelman andSinger blackmail him into helping heal and redirect, Joshua Bronstein, who though a damagedsoul is a candidate for the Lamed Vav, one of the thirty-six hidden righteous men from who themessiah will be chosen when God decides it is time. It becomes Kalinsky’s job to shepherdBronstein out of his north woods wilderness and retie him to his faith.
             </p>
             <a
               target="_blank"
               href="https://www.amazon.com/dp/B01GP1GZ0Q/ref=rdr_kindle_ext_tmb"
               >Buy on Amazon</a
             >
+            <div style="margin: 15px 0 0 15px;">Reviews ></div>
           </div>
         </div>
+        <div class="book-item">
+          <div class="book-img">
+            <img src="assets/green.jpg" alt="book-cover" />
+          </div>
+          <div class="book-info">
+            <p>
+              This prequel to Bob Gilbert’s first novel "Mintwood Place," is a coming of age story set in the1970s. It features the young Joe Green, who we already know as a divorced father of three,involved in the political skullduggery of Washington, D.C. Now we meet young Joe, a senior atAmerican University, who gets himself in trouble and flees the city two steps ahead of the law. His escape takes him to Sonoma County, California, where he goes into hiding. During hislonesome months of exile, he expands his imagination with the study of such books as Homer’s"The Odyssey," and "The I Ching," of Confucius. He also becomes a successful marijuanagrower. After two years, he returns to D.C. with money and a gnostic sense that stands inopposition to the emerging politics of the Reagan era. "Green Goes Forth" is Robert Gilbert’sthird novel.
+            </p>
+            <a
+              target="_blank"
+              href="https://www.amazon.com/gp/product/B079471PJQ/ref=dbs_a_def_rwt_bibl_vppi_i1"
+              >Buy on Amazon</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- <div class="line"></div> -->
+      <div class="video-container">
+        <h3>Interview for <span>'The Shady Elders of Zion'</span></h3>
+        <video src="assets/interview.mp4" controls></video>
       </div>
     </div>
     <div id="contact" class="contact">
       <h1>Contact</h1>
-      <a href="mailto:#">myemailhere.com</a>
+      <div class="social">
+      <a target="_blank" href="mailto:shadyrealm@aol.com"> <i class="fa fa-facebook-square"></i></a>
+      <a target="_blank" href="https://www.facebook.com/robert.gilbert.585"> <i class="fa fa-envelope"></i></a>
+
+    </div>
     </div>
 
     <script src="script.js"></script>
