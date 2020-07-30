@@ -33,7 +33,7 @@ scrollHome.onclick = function () {
 };
 
 scrollBooks.onclick = function () {
-  window.scrollTo(0, 550);
+  window.scrollTo(0, 850);
   burger.innerHTML = '&#9776;';
   dropdown.style.height = '0px';
 };
