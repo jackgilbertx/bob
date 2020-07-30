@@ -152,6 +152,24 @@ header .bob {
   border-radius: 5px;
 }
 
+.reviews {
+  display: none;
+}
+
+.open-review {
+  padding: 8px 12px;
+  display: block;
+  margin-top: 20px;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.open-review:focus {
+  outline: none;
+}
+
 .video-container {
   width: 100%;
   margin-bottom: 30px;
@@ -442,5 +460,15 @@ i:hover {
 
   .video-container video {
     width: 100%;
+  }
+
+  .open-review {
+    padding: 8px 12px;
+    display: inline-block;
+    margin: 20px 0 0 5px;
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor: pointer;
   }
 }
